@@ -16,22 +16,53 @@ Body {
   color:#FFF;
 }
 
+.black-text {
+  color:#031b4f;
+}
+
 /* NAVBAR */
 
-#navbar{
-  background: grey;
+#navbar {
+  background: #FFF;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 1.5rem;
+}
+
+#navbar img {
+  width:157px;
+  position: relative;
+  bottom:4px;
+  right:17px;
 }
 
 #navbar a[role="button"] {
-  border: 1px solid #006aff;
+  border: 1px solid #2285fd;
   background-color: transparent;
   padding:5px 10px;
   border-radius: 3px;
   font-size: 1.5rem;
   margin-top: 9px;
-  color: #006aff;
+  color: #2285fd;
 }
 
+ .nav > li > a:focus, .nav > li > a:hover {
+  color:#2285fd;
+  background-color: transparent;
+}
+
+.navbar-btn {
+  color:#2285fd;
+  background-color:transparent;
+  border: none;
+  font-size:1.9rem;
+  position:relative;
+  bottom:2px;
+}
+
+#navbar i{
+  margin-left: 2px;
+}
 
 /* HERO */
 
