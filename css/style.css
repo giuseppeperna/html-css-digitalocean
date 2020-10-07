@@ -94,7 +94,6 @@ Body {
   height: 50px;
   font-weight: 500;
   font-size: 2rem;
-  /* margin-top: 0px; */
 }
 
 .form {
@@ -141,6 +140,7 @@ Body {
   font-size: 2.2rem;
   font-weight: 400;
   margin-top: 25px;
+  margin-bottom: 35px;
   padding-right: 20px;
   text-align: left;
   opacity: 0.8;
@@ -162,13 +162,73 @@ Body {
 /* CUSTOMERS */
 #customers {
   background-color: #f3f5f9;
-  height: 400px;
+  padding-top:35px;
+  padding-bottom:35px;
 }
+
+.customers-container {
+  max-width: 75%;
+}
+
+#customers h4 {
+  margin-bottom: 25px;
+}
+
+#customers p {
+  margin-top: 25px;
+  font-weight: 500;
+}
+
+
 
 /* DEPLOY */
 #deploy {
   background-color: #FFF;
-  height:800px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+#deploy h3 {
+  font-size: 3.5rem;
+}
+
+#deploy .container:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.deploy-container {
+  margin-top: 30px;
+}
+
+.deploy-container img {
+  margin-top: 10px;
+}
+
+.deploy-container ul li {
+  display: block;
+  text-align: left;
+  margin: 5px 0;
+  padding :3px 0;
+  font-size:1.8rem;
+}
+
+.deploy-container ul {
+  border-left: 2px solid lightgrey;
+  padding-left: 10px;
+}
+
+.deploy-car h4 {
+  margin-top: 15px;
+}
+
+.deploy-container p {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.deploy-card {
+  margin-bottom: 27px;
 }
 
 /* DEVELOPERS */
