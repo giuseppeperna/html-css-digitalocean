@@ -1,0 +1,98 @@
+Body {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* COMMON */
+
+.debug [class*="col-"]{
+  border:1px solid black;
+  background-color: chartreuse;
+}
+
+/* COLOURS */
+
+.white-text {
+  color:#FFF;
+}
+
+/* NAVBAR */
+
+#navbar{
+  background: grey;
+}
+
+#navbar a[role="button"] {
+  border: 1px solid #006aff;
+  background-color: transparent;
+  padding:5px 10px;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  margin-top: 9px;
+  color: #006aff;
+}
+
+
+/* HERO */
+
+#hero {
+  background: blue;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+/* MAIN SECTIONS */
+
+/* CUSTOMERS */
+#customers {
+  background-color: #f3f5f9;
+  height: 400px;
+}
+
+/* DEPLOY */
+#deploy {
+  background-color: #FFF;
+  height:800px;
+}
+
+/* DEVELOPERS */
+#developers {
+background-color: #f3f5f9;
+height: 800px;
+}
+
+
+/* FEATURES */
+#features {
+  background-color: #FFF;
+  height: 400px;
+}
+
+/* SERVICE */
+
+#service {
+  background-color: #102757;
+  height: 400px;
+}
+
+/* DEVELOPMENT TEAMS */
+
+#teams {
+  background-color: #f3f5f9;
+  height:400px;
+}
+
+/* GET-STARTED */
+
+#get-started {
+  background-color: #015dff;
+  height:200px;
+}
+
+
+/* FOOTER */
+
+#footer-nav {
+  background-color: #010e28;
+  height: 500px;
+}
