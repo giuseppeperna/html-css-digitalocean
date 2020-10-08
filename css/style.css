@@ -187,10 +187,6 @@ Body {
   padding-bottom:35px;
 }
 
-.customers-container {
-  max-width: 75%;
-}
-
 #customers h4 {
   margin-bottom: 25px;
   font-size: 1.4rem;
@@ -599,6 +595,10 @@ padding-bottom: 50px;
 
   .section-sub-title {
     font-size: 1.7rem;
+  }
+
+  .customers-container {
+    max-width: 75%;
   }
 
   .teams-label {
